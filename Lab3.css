@@ -1,0 +1,49 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.calculator {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 2px solid #333;
+    padding: 15px; /* Reduced padding */
+    max-width: 300px; /* Reduced maximum width */
+    margin: 0 auto;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Reduced gap */
+    border-radius: 10px; /* Reduced border radius */
+}
+
+input[type="number"],
+input[type="range"],
+input[type="text"] {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #555; /* Reduced border thickness */
+    border-radius: 5px; /* Reduced border radius */
+    background-color: #ffffff;
+    color: #000;
+}
+
+#tipSlider {
+    background-color: #d2ea7e;
+}
+
+#tipPercentage,
+#tipAmount {
+    background-color: #fff;
+}
+
+#totalWithTipInput label {
+    color: #ffffff;
+}
+
+#totalWithTip {
+    background-color: #ffffff;
+    color: #0c0c0c;
+}
